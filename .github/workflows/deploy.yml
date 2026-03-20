@@ -1,8 +1,11 @@
 name: Deploy to GitHub Pages
 
 on:
+  release:
+    types: [published]
   push:
-    branches: [Mvelasquez]
+    tags:
+      - 'Portafolio' # Esto le dice a GitHub: "Solo actúa si el tag se llama así"
   workflow_dispatch:
 
 permissions:
