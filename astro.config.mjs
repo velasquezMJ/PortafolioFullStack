@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://velasquezmj.github.io', // Tu URL de GitHub Pages
-  base: '/Portafolio', // El nombre de tu repositorio en GitHub
+  base: '/PortafolioMvelasquez', // El nombre de tu repositorio en GitHub
   vite: {
     plugins: [tailwindcss()],
   },
