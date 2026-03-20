@@ -14,6 +14,7 @@
   "dependencies": {
     "astro": "^6.0.6",
     "lucide-astro": "^0.556.0",
+    "@astrojs/tailwind": "^6.0.2",
     "sweetalert2": "^11.26.23"
   },
   "devDependencies": {
@@ -21,5 +22,8 @@
     "@tailwindcss/vite": "^4.0.0",
     "astro": "^6.0.6",
     "tailwindcss": "^4.0.0"
+  },
+  "overrides": {
+    "astro": "$astro"
   }
 }
