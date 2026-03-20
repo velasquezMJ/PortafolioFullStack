@@ -17,7 +17,6 @@
     "sweetalert2": "^11.26.23"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^6.0.2",
     "astro": "^6.0.7",
     "tailwindcss": "^4.2.2"
   },
