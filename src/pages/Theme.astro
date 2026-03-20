@@ -66,13 +66,13 @@
     const isDark = element.classList.contains("dark");
     localStorage.setItem("theme", isDark ? "dark" : "light");
     
-    // Volver a configurar para actualizar los iconos tras el click
+ 
     setupTheme();
   };
 
-  // Se ejecuta al cargar la página por primera vez
+ 
   setupTheme();
 
-  // Se ejecuta tras una navegación si usas ViewTransitions
+ 
   document.addEventListener('astro:after-swap', setupTheme);
 </script>

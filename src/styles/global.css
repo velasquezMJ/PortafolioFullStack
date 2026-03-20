@@ -20,7 +20,6 @@ section {
 }
 
 
-@theme {
-  /* Aquí puedes añadir colores personalizados para Guardian X si gustas */
+@theme { 
   --color-guardian-blue: #1e3a8a;
 }
