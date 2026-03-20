@@ -30,6 +30,9 @@ jobs:
 
       - name: Build Astro
         run: npm run build
+      
+      - name: legacy
+        run: npm install --legacy-peer-deps
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
