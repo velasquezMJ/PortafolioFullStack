@@ -1,0 +1,26 @@
+/* src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+:root {
+  color-scheme: light dark;
+}
+ 
+
+@variant dark (&:where(.dark, .dark *));
+
+html {
+transition: background-color 0.3s ease;
+}
+ 
+section {
+  @apply min-h-screen pt-24 pb-12;
+}
+
+
+@theme {
+  /* Aquí puedes añadir colores personalizados para Guardian X si gustas */
+  --color-guardian-blue: #1e3a8a;
+}
